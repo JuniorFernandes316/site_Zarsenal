@@ -1,0 +1,68 @@
+body {
+    background-image: url(/images/background_figma.png);
+    
+}
+
+.bar-top {
+    background-color: #2a7cd469;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 80px;
+    
+}
+
+.bar-top ul{
+    font-size: 20pt;
+    margin-top: auto;
+    margin-left: 45rem;
+    width: 100%;
+}
+
+.bar-top li{
+    cursor: pointer;
+    font-family: 'kalam';
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.inicio {
+    
+    padding: 0px;
+    margin-top: 0;
+    height: 30rem;
+    width: 100%;
+    
+}
+
+.inicio img {
+    
+    margin-top: 5rem;
+    margin-left: 2rem;
+      
+}
+
+#vendedor {
+    float: right;
+    width: auto;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    box-shadow: 5px 10px 20px;
+    border-radius: 30px;
+}
+
+
+#quadro{
+   padding: 0px;
+   margin: 0px;
+
+}
+
+
+footer {
+    background-color: rgba(50, 205, 89, 0.548);
+}

@@ -1,0 +1,144 @@
+html, body{
+    margin: 0rem;
+    max-width: 100%;
+    
+}
+#background {
+    width: 100%;
+    height: 150rem;
+        
+}
+
+                          /*barra menu fixa*/
+.bar-top {
+    background-color: rgb(141, 190, 144);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    height: 80px;
+    
+}
+
+                            /*barra de coracoes*/
+.heart-bar img { 
+    width: 1.5rem;
+    margin-top: 30px;
+    margin-left: 20px;
+    float: left;
+    align-content: space-between;
+
+}
+
+.bar-top .menu ul{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-flex;
+    gap: 50px;
+    margin-left: 42rem;
+    margin-top: 1.5rem;
+}
+
+
+
+.menu li{
+    cursor: pointer;
+    font-family: 'kalam';
+    display: inline-block;
+    color: #fff;
+    text-align:right;
+}
+                        /* Apresentacao Primeira divisao após a barra*/
+.inicio {
+    position: absolute;
+    padding: 0px;
+    margin-top: 60px;
+    height: 35rem;
+    width: 100%;
+    
+}
+
+#vendedor {
+    margin-top: 5.5rem;
+    position: absolute;
+    margin-left: 45rem;
+}
+
+.inicio h1 {
+    margin-top: 5rem;
+    font-size: 20px;
+    color: rgb(248, 247, 247);
+    font-family: 'kalam';
+    background-color: rgba(129, 128, 128, 0.418);
+    width: fit-content;
+    padding: 30px 40px 20px 50px; /* cima - direita - baixo - esquerda*/
+    margin-left: 55rem;
+    border-radius: 20px;
+    
+    
+}
+
+#not{
+    padding: 20px 30px;
+    background-color: rgb(151, 230, 5);
+    border-style: none;
+    display: inline;
+    color: rgb(255, 251, 253);
+    cursor: pointer;
+    border-radius: 10px ;
+    margin-left: 80px;
+    box-shadow: 5px 5px 10px rgb(117, 116, 116);
+}
+
+#yes{
+    box-shadow: 5px 5px 10px rgb(117, 116, 116);
+    padding: 20px 60px;
+    border-style: none;
+    background-color: rgb(151, 230, 5);
+    cursor: pointer;
+    display: inline;
+    color: rgb(254, 255, 253);
+    border-radius: 10px;
+}
+                                /*Logo*/
+.inicio img {
+    margin-top: 50px;
+    margin-left: 5rem;
+    width: 250px
+        
+}
+
+.decoracao {
+    margin-left: 5rem;
+    position: absolute;
+    width: 40%;
+    margin-top: 15rem;
+    border-radius: 20px;
+}
+
+.corpo {
+    margin-top: 50rem;
+    width: 100%;
+    position: absolute;
+}
+
+.grid-container {
+    background-color: thistle;
+    margin-left: 100px;
+    columns: 3;
+    width: 700px;
+    height: 700px;
+    
+}
+
+.grid-item img{
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+    width: 100%;
+    padding-top: 40px;
+}	
+
+
+
